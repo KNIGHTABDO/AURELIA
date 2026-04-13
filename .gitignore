@@ -1,29 +1,35 @@
-# temp folder
-tmp
+     1|# temp folder
+     2|tmp
+     3|
+     4|# Frontend asset
+     5|web/dist
+     6|
+     7|# Build artifacts
+     8|build/
+     9|bin/
+    10|memos
+    11|
+    12|# Plan/design documents
+    13|docs/plans/
+    14|
+    15|.DS_Store
+    16|
+    17|# Jetbrains
+    18|.idea
+    19|
+    20|# Docker Compose Environment File
+    21|.env
+    22|
+    23|dist
+    24|
+    25|# VSCode settings
+    26|.vscode
+    27|
+    28|# Git worktrees
+    29|.worktrees/
+    30|.vercel
+    31|
 
-# Frontend asset
-web/dist
-
-# Build artifacts
-build/
-bin/
-memos
-
-# Plan/design documents
-docs/plans/
-
-.DS_Store
-
-# Jetbrains
-.idea
-
-# Docker Compose Environment File
-.env
-
-dist
-
-# VSCode settings
-.vscode
-
-# Git worktrees
-.worktrees/
+# Vercel/local build artifacts
+web/.vercel
+web/node_modules
